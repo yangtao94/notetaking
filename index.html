@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Note taking app</title>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3">
+                <h2>Note List</h2>
+                <input type="search" class = "typeable" placeholder="Search" id = "searchInput">
+                <button id = "Search">Search!</button>
+            </div>
+            
+            <div class="col-md-9 bg">
+                <h2>New Note</h2>
+                <input type="text" class = "typeable" placeholder="Title" id = "title">
+                
+
+            </div>
+        </div>
+        <div class = "row interface">
+            <div class = "col-md-3">
+                <h1  id = "noteList"></h1>
+
+                <p id = "hi"></p>
+
+            </div>
+
+            <div class = "col-md-9">
+                <textarea class="content" id = "description"></textarea><br>
+                <button class = "Btn" id = "saveBtn">Save</button>
+                <button class = "Btn" id = "delBtn">DELET DIS</button>
+            </div>
+            
+            
+        </div>
+        
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
